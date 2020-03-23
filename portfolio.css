@@ -1,0 +1,10 @@
+body {
+  background-color: lightgray;
+}
+
+.container {
+  width: 1024px;
+}
+.card {
+  margin-right: 30px;
+}
