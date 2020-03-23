@@ -1,10 +1,16 @@
 body {
   background-color: lightgray;
 }
-
+.navbar {
+  width: 100%;
+  text-decoration: underline;
+  color: blue;
+  font-family: "Gotu", sans-serif;
+}
 .container {
-  width: 1024px;
+  width: 100%;
 }
 .card {
   margin-right: 30px;
+  font-family: "Gotu", sans-serif;
 }
