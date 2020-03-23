@@ -9,6 +9,8 @@ body {
 }
 .container {
   margin-left: 0;
+  padding: 20px;
+  border-color: black;
 }
 .row {
   padding: 20px;
