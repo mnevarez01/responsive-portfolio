@@ -40,49 +40,52 @@
   </head>
   <!--Navbar-->
   <!--Links to Pages: About Me and Portfolio-->
-  <header>
-    <div class="navbar col-md">
-      <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-        <a class="navbar-brand" href="#">Maria Nevarez</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="index.html"
-              >About Me <span class="sr-only">(current)</span></a
-            >
-            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-            <a class="nav-item nav-link" href="contact.html">Contact</a>
+  <body>
+    <header>
+      <div class="navbar col-md">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+          <a class="navbar-brand" href="#">Maria Nevarez</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link active" href="index.html"
+                >About Me <span class="sr-only">(current)</span></a
+              >
+              <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+              <a class="nav-item nav-link" href="contact.html">Contact</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!--Contains contant input properties-->
+    <section>
+      <div class="container">
+        <h1>Contact Me:</h1>
+        <div class="row">
+          <div class="col-md">
+            <input type="text" name="_name" placeholder="Your full name" />
           </div>
         </div>
-      </nav>
-    </div>
-  </header>
-  <!--Contains contant input properties-->
-  <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-md">
-          <input type="text" name="_name" placeholder="Your full name" />
+        <div class="row col-md">
+          <input type="text" name="_Email" placeholder="Your Email" />
+        </div>
+        <div class="row message col-md">
+          <input type="text" name="_message" placeholder="Leave a Message" />
+
+          <i class="fa fa-telegram" style="font-size:24px"></i>
         </div>
       </div>
-      <div class="row col-md">
-        <input type="text" name="_Email" placeholder="Your Email" />
-      </div>
-      <div class="row message col-md">
-        <input type="text" name="_message" placeholder="Leave a Message" />
-
-        <i class="fa fa-telegram" style="font-size:24px"></i>
-      </div>
-    </div>
+    </section>
   </body>
 </html>

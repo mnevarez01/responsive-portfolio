@@ -1,5 +1,5 @@
 Responsive Portfolio
-![Responsive Portfolio Image](https://github.com/mnevarez01/responsive-portfolio/blob/master/img/mn3.JPG)
+![Responsive Portfolio Image] <img src="./portfolio.png">
 
 Credits:
 I have used Layouts from Bootstrap: https://getbootstrap.com/docs/4.4/getting-started/introduction/
