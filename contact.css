@@ -16,9 +16,12 @@ body {
   padding: 20px;
 }
 input[type="text"] {
-  width: 50%;
+  width: 75%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
   font-family: "Gotu", sans-serif;
+}
+.button{
+  margin-right: 50px;
 }
